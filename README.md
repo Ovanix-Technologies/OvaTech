@@ -1,9 +1,6 @@
-collab
+Ovanix
 ======
 
-Repo used for collaboration
-
-Use the gameExamples to get a feel for how full games are made in the BGE.
 
 PLEASE name EVERY object!
 
@@ -18,7 +15,7 @@ graphicalAssets.blend - Keep any ready models and textures here (NOT for art fro
 otherAssets.blend - Keep audio, video, text etc. here
 outsideAssets.blend - Keep assets created by others here. This includes placeholder art. Make sure to paste a link to the source in a text file
 
-
+Modellers should create their own sandboxX.blend files for modeling
 
 
 
