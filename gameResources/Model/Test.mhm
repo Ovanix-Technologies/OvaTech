@@ -1,0 +1,22 @@
+# Written by MakeHuman 1.0.0
+version v1.0.0
+tags Test
+macro Weight 0.500000
+macro Gender 0.500000
+macro Age 0.500000
+macro Height 0.500000
+macro Asian 0.333333
+macro African 0.333333
+macro Caucasian 0.333333
+macro Muscle 0.500000
+macro BodyProportions 0.500000
+gendered BreastFirmness 0.500000
+gendered BreastSize 0.500000
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes jeans01 faa58a00-05db-4a53-a3a6-72af1cec2053
+clothes Shirt01 c8c87311-c197-4bf8-9e01-fc05a308aee0
+clothes malesuit01HRes c9df3c39-98e0-43d5-92ea-c48115c0e3a8
+clothesHideFaces True
+skinMaterial skins/default.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+skeleton game.json 
