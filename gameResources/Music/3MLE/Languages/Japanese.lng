@@ -1,0 +1,422 @@
+﻿; ====================================================================================================================================================
+; 3MLE EDITOR 2 Localization definition file.
+; ====================================================================================================================================================
+; 
+; YOU MUST SAVE AS UTF-8. Recommends adding BOM.
+; Remember its extension must be "lng", but its filename can be anything.
+; Symbol '\n' meaning return must be holden; '\t' meaning TAB also must be holden.
+; To make one of the letters in the caption of a control the mnemonic key, precede it with an ampersand (&).
+; Symbol '%' and following character must be holden because of being to be replaced with running time string. Don't change an order that they appear.
+;
+; このファイルは文字コード UTF-8で保存する必要がある。 BOMを付加することを推奨する。
+; このファイルの拡張子は"lng"である必要があるが、ファイル名は自由に付けて良い。
+; '\n'は改行を表しているので保持すること。'\t'はタブ文字を表して、同様に保持すること。
+; 項目名にニーモニックキーを設定するには、'&'とその直後に英文字一つを記述する。
+; '%'と続く英文字は実行時に別の文字と置き換えられるので必ず保持する。また、それらが現れる順番も変えてはならない。
+;
+
+[Information]
+; Localization file format verion
+Version                               = {6C578524-B2AA-4696-AE76-D491B55679E8}
+
+; 0x0411 Japanse
+LCID                                  = 1041
+Language                              = ja
+LanguageName                          = 日本語
+
+; Replace the following by your name.
+TranslatedBy                          = ALOE
+
+[Global]
+IDOK                                  = OK
+IDCANCEL                              = キャンセル
+IDS_TPQN_032                          = 低 :　　32 TPQN
+IDS_TPQN_048                          = 低 :　　48 TPQN
+IDS_TPQN_096                          = 標準 :　96 TPQN
+IDS_TPQN_120                          = 中 :　　120 TPQN
+IDS_TPQN_480                          = 高 :　　480 TPQN
+IDS_TPQN_960                          = 高 :　　960 TPQN
+
+[Main Window]
+IDS_ERR_CLIPBOARDOPEN                 = クリップボードが開けませんでした。
+IDS_ERR_DM_DLSLOAD                    = DLSファイルの読み込みに失敗しました。
+IDS_ERR_DM_INIT                       = DirectMusicの初期化に失敗しました。
+IDS_ERR_DM_OPEN                       = DirectMusicの出力ポートのオープンに失敗しました。
+IDS_ERR_DM_SYNTHLOAD                  = DirectMusic Synthesizerの音色データのロードに失敗しました。
+IDS_ERR_FILEOPEN                      = ファイルが開けませんでした。
+IDS_ERR_FILESAVE                      = ファイルが保存出来ませんでした。
+IDS_ERR_GDIPLUS_INIT                  = GDI+の初期化に失敗しました。
+IDS_ERR_LANGUAGE_LOAD                 = 言語ファイルの読み込みに失敗しました。
+IDS_ERR_MIDIOUT_OPEN                  = MIDI出力デバイスのオープンに失敗しました。
+IDS_ERR_MIDIOUT_RESET                 = MIDI出力のリセットに失敗しました。
+IDS_ERR_NOMOREADDTRACK                = これ以上トラックを追加できません。
+IDS_ERR_SMFEXPORT                     = 標準MIDIファイルが保存できませんでした。
+IDS_ERR_SMFIMPORT                     = 標準MIDIファイルが開けませんでした。
+IDS_ERR_SMFPARSE                      = 標準MIDIファイルの解析に失敗しました。
+IDS_ERR_UNEXPECTED                    = 想定外のエラーが発生しました。
+IDS_MAIN_BEAT                         = 拍子
+IDS_MAIN_CARET_COL                    = %d 列
+IDS_MAIN_CARET_INFO                   = Tempo %3d, Octave %d, Velocity %2d, L%d%c
+IDS_MAIN_CARET_ROW                    = %d 行
+IDS_MAIN_CONFIRM_EMPTY                = ファイル %s が変更されています。\n\n変更を保存しますか？
+IDS_MAIN_GLOBALGROUP                  = グローバルグループ
+IDS_MAIN_MIDIOUT_SETTINGS             = MIDI設定を開きますか？
+IDS_MAIN_MMLATMARK_FORMAT             = MML@形式 %dトラック
+IDS_MAIN_MML_LENGTH                   = 文字数
+IDS_MAIN_MODIFIED                     = 更新
+IDS_MAIN_NEWMARKER                    = 新規マーカー
+IDS_MAIN_NEWTRACK                     = トラック
+IDS_MAIN_OPEN_FILTER                  = すべての対応形式 (*.mml; *.mms)|*.mml;*.mms|MabiMML互換形式 (*.mml)|*.mml|まきまびしーく形式 (*.mms)|*.mms|すべてのファイル (*.*)|*.*||
+IDS_MAIN_OPEN_SMF_FILTER              = 標準MIDIファイル Format-0/1 (*.mid)|*.mid|すべてのファイル (*.*)|*.*||
+IDS_MAIN_OPEN_SMF_TITLE               = インポートする標準MIDIファイルを選択
+IDS_MAIN_OPEN_TITLE                   = ファイルを開く
+IDS_MAIN_SAVE_FILTER                  = MabiMML互換形式 (*.mml)|*.mml|すべてのファイル (*.*)|*.*||
+IDS_MAIN_SAVE_TITLE                   = 名前を付けて保存
+IDS_MAIN_SAVE_SMF_FILTER              = 標準MIDIファイル Format-1 (*.mid)|*.mid|標準MIDIファイル Format-0 (*.mid)|*.mid|すべてのファイル (*.*)|*.*||
+IDS_MAIN_SAVE_SMF_TITLE               = 名前を付けて標準MIDIファイルをエクスポート
+IDS_MAIN_TOPMARKER                    = 先頭
+IDS_MAIN_TPQN                         = 分解能
+IDS_MAIN_UNTITLED                     = 名称未設定
+IDS_MAIN_PIANO_T_GLOBAL               = グローバル
+IDS_MAIN_PIANO_T_GLOBAL_ALLFOCUS      = グローバル 強調
+IDS_MAIN_PIANO_T_GROUP                = グループ
+IDS_MAIN_PIANO_T_GROUP_ALLFOCUS       = グループ 強調
+IDS_MAIN_PIANO_T_CURRENT_TRACK        = 現在のトラック
+IDS_MAIN_PIANO_T_CUSTOM               = ユーザー指定
+IDS_MAIN_PIANO_T_CUSTOM_ALLFOCUS      = ユーザー指定 強調
+IDS_MAIN_MIGRATED                     = マイグレーション済み
+IDS_MAIN_MIGRATION_COMPLETED          = マイグレーションが完了しました。
+
+[Main Window Menu]
+0x80000000                            = ファイル(&F)
+IDM_FILE_NEW                          = 新規作成(&N)
+IDM_FILE_OPEN                         = 開く(&O)
+IDM_FILE_SAVE                         = 上書き保存(&S)
+IDM_FILE_SAVE_AS                      = 名前をつけて保存(&A)
+IDM_IMPORT_MML                        = クリップボードのMMLを入力(&I)
+IDM_EXPORT_MMLA                       = クリップボードへMMLを出力(&E)
+IDM_IMPORT_SMF                        = 標準MIDIファイルを入力(&M)
+IDM_EXPORT_SMF                        = 標準MIDIファイルを出力(&P)
+IDM_EXPORT_WAV                        = WAVEファイルを出力(&W)
+0xE110                                = 最近使ったファイル
+IDM_DOCUMENT_PROPERTY                 = プロパティ(&R)
+IDM_MIGRATION                         = 32→96TPQN マイグレーション(&M)
+IDM_APP_CLOSE                         = 終了(&X)
+
+0x80000001                            = 編集(&E)
+IDM_UNDO                              = 元に戻す(&Z)
+IDM_REDO                              = やり直し(&Y)
+IDM_CUT                               = 切り取り(&X)
+IDM_COPY                              = コピー(&C)
+IDM_PASTE                             = 貼り付け(&V)
+IDM_DEL                               = 削除(&D)
+IDM_SELECT_ALL                        = すべて選択(&A)
+IDM_SEARCH                            = 検索(&F)
+IDM_REPLACE                           = 置換(&R)
+
+0x80000002                            = 表示(&D)
+IDM_VIEW_NORMAL                       = 全て(&N)
+IDM_VIEW_PIANOCODE_VERT               = ピアノロール＆コード 縦(&V)
+IDM_VIEW_PIANOCODE_HORZ               = ピアノロール＆コード 横(&P)
+IDM_VIEW_MONITOR                      = 演奏モニタ(&M)
+IDM_DISPLAY_KEYBOARD                  = 鍵盤(&K)
+
+0x80000003                            = トラック(&T)
+IDM_TRACK_ADD                         = トラック追加(&A)
+IDM_TRACK_DEL                         = トラック削除(&E)
+IDM_TRACK_SEL_LEFT                    = 左のトラックを選択(&L)
+IDM_TRACK_SEL_RIGHT                   = 右のトラックを選択(&R)
+IDM_MML_CHECK                         = 構文チェック(&C)
+IDM_OPTIMIZE                          = 最適化(&O)
+0x80002403                            = 最適化オプション(&P)
+IDM_OPTIMIZE_ALL                      = すべてのトラックを最適化(&A)
+IDM_TRACK_PROPERTY                    = トラックプロパティ(&R)
+IDM_TRACK_NAME_EDIT                   = トラック名を編集(&N)
+IDM_TRACK_CANCEL                      = キャンセル
+
+0x80000004                            = 操作(&O)
+IDM_PLAY_TOGGLE                       = 再生(&P)
+IDM_PLAY_PAUSE                        = 一時停止(&C)
+IDM_PLAY_STOP                         = 停止(&S)
+IDM_PLAY_PREVMEAS                     = １小節再生位置を戻す(&R)
+IDM_PLAY_NEXTMEAS                     = １小節再生位置を進める(&F)
+IDM_PLAY_TOP                          = 先頭へ戻す(&B)
+IDM_PLAY_CURSOR                       = コードカーソル位置から再生(&T)
+IDM_PLAY_LOOP                         = 繰り返し再生(&L)
+
+0x80000005                            = 設定(&S)
+IDM_CARET_TRACE                       = コードカーソル追従(&T)
+IDM_EDIT_PLAY_SELECT                  = 再生中コード選択(&V)
+IDM_EVENT_SCROLL                      = イベントリストの自動スクロール(&C)
+IDM_PIANO_SCROLL                      = ピアノロールの自動スクロール(&P)
+IDM_CONFIG_ENV                        = 環境設定(&C)
+
+0x80000006                            = ヘルプ(&H)
+IDM_ABOUTBOX                          = バージョン情報(&A)
+
+[Code Edit Menu]
+IDM_PLAY_CURSOR                       = ここから再生(&P)
+
+[Piano Roll Marker Menu]
+IDM_MARKER_CREATE                     = マーカーを作成(&C)
+IDM_MARKER_DEL                        = マーカーを削除(&D)
+IDM_MARKER_EDIT                       = マーカーを編集(&E)
+IDM_CANCEL                            = キャンセル
+
+[Tracks Property]
+IDS_TP_TITLE                          = トラックプロパティ
+IDS_TP_TRACK_NAME                     = トラック名(&N)
+IDS_TP_GROUP_NAME                     = グループ名(&N)
+IDS_TP_DEFAULT_GROUP                  = グループ %d
+IDS_TP_TRACK_TYPE_NORMAL              = メロディ
+IDS_TP_TRACK_TYPE_RHYTHM              = リズム
+IDC_CMD_ADD                           = 追加
+IDC_CMD_MUTE                          = ミュート(&M)
+IDC_TXT_OFFSET                        = 再生開始位置(&S)
+IDC_CMD_APPLY                         = 適用(&A)
+IDC_CMD_DEL                           = 削除
+IDC_CHK_ORDER                         = トラックの並び順を設定する(&O)
+IDC_TEXT_1                            = 基本設定(&B)
+IDC_TEXT_2                            = 楽器(&I)
+IDC_TEXT_3                            = ミキサー(&X)
+IDC_TEXT_4                            = ボリューム(&V)
+IDC_TEXT_5                            = パンポット(&P)
+IDC_TEXT_6                            = トラックタイプ(&T)
+IDC_TEXT_7                            = グループ(&G)
+
+[Clipboard Import]
+IDS_CB_IM_TITLE                       = クリップボードのMMLを入力
+IDC_CHK_NEW                           = 新規読み込み(&N)
+IDC_CHK_ADD                           = 追加読み込み(&A)
+IDC_TEXT_1                            = 情報(&I)
+IDC_TEXT_2                            = 読み込み方法(&F)
+IDC_TEXT_3                            = 楽器設定(&S)
+IDC_TEXT_4                            = トラック名(&N)
+
+[Clipboard Export]
+IDS_CB_EX_TITLE                       = クリップボードへMMLを出力
+IDOK                                  = MMLをコピー
+IDCANCEL                              = 閉じる
+IDC_CMD_RESET                         = リセット
+IDC_CHK_MABINOGI                      = マビノギ MML@形式
+IDC_CHK_SITARABA                      = したらば MMLテンプレート
+IDC_CHK_MABIMML                       = MabiMML互換形式
+IDC_CHK_OPTIMIZE                      = 最適化して出力する(&E)
+IDC_CHK_SORT                          = トラックを文字数順にソート(&S)
+IDC_COPY_TITLE                        = 曲名をコピー
+IDC_COPY_TRACK_NAME                   = トラック名をコピー
+IDC_COPY_INST_NAME                    = 楽器名をコピー
+IDC_COPY_GROUP_NAME                   = グループ名をコピー
+IDC_TEXT_1                            = 情報
+IDC_TEXT_2                            = 出力設定
+IDC_TEXT_3                            = ツール
+IDS_CB_EX_3TRACKS                     = トラックを3つまで選択して下さい。
+IDS_CB_EX_4TRACKS                     = トラックが4つ以上選択されています。
+IDS_CB_EX_ALLTRACK                    = すべてのトラックが出力されます。
+IDS_CB_EX_HELP1                       = MML@<メロディ>,<和音1>,<和音2>;\nの形式で出力します。\nマビノギの楽譜スクロールにそのまま貼り付け可能です。
+IDS_CB_EX_HELP2                       = 【曲名】<曲名>\n【出典】<出展>\n【作曲可能ランク】<作曲ランク>\nMML@\n<メロディ>\n,\n<和音1>\n,\n<和音2>\n;\nの形式で出力します。
+IDS_CB_EX_HELP3                       = MabiMMLの形式で出力します。\nすべてのトラックが出力対象です。\n最適化とトラックのソートは行いません。
+IDS_CB_EX_LISTENTRY                   = %4d文字 : %s
+IDS_CB_EX_METHOD                      = 圧縮メソッド
+IDS_CB_EX_RANK                        = 必要作曲ランク
+IDS_CB_EX_RESULT_A_1                  = Melody  : %4d → %4d 文字 [%s]
+IDS_CB_EX_RESULT_A_2                  = Chord 1 : %4d → %4d 文字 [%s]
+IDS_CB_EX_RESULT_A_3                  = Chord 2 : %4d → %4d 文字 [%s]
+IDS_CB_EX_RESULT_B_1                  = Melody  : %4d 文字 [%s]
+IDS_CB_EX_RESULT_B_2                  = Chord 1 : %4d 文字 [%s]
+IDS_CB_EX_RESULT_B_3                  = Chord 2 : %4d 文字 [%s]
+IDS_CB_EX_RESULTMSG1                  = MabiMML形式で出力しました。
+IDS_CB_EX_RESULTMSG2                  = マビノギ(MML@)形式で以下のとおりに出力しました。     　　
+IDS_CB_EX_RESULTMSG3                  = したらば形式(MML@改行あり)で以下のとおりに出力しました。     　　
+IDS_CB_EX_RESULTMSG4                  = 曲名をコピーしました。
+IDS_CB_EX_RESULTMSG5                  = トラック名をコピーしました。
+IDS_CB_EX_RESULTMSG6                  = 楽器名をコピーしました。
+IDS_CB_EX_RESULTMSG7                  = グループ名をコピーしました。
+IDS_CB_EX_SITA_RANK                   = 【作曲可能ランク】
+IDS_CB_EX_SITA_SOURCE                 = 【出典】
+IDS_CB_EX_SITA_TITLE                  = 【曲名】
+IDS_CB_EX_MODE_1                      = トラック
+IDS_CB_EX_MODE_2                      = グループ
+IDS_CB_EX_RANK_PRACTICE               = 練習
+IDS_CB_EX_RANK_IMPOSSIBLE             = 作曲不可能
+
+[Marker Edit]
+IDC_CMD_DEL                           = 削除(&D)
+IDC_TEXT_1                            = マーカーの位置
+IDC_TEXT_2                            = マーカー名(&N)
+IDS_MK_TITLE_CREATE                   = マーカー作成
+IDS_MK_TITLE_EDIT                     = マーカー編集
+
+[Document Property]
+IDS_DP_TITLE                          = のプロパティ
+IDS_DP_UNTITLED                       = 名称未設定
+IDC_CMD_RESET                         = クリア
+IDC_TEXT_1                            = 曲名(&T)
+IDC_TEXT_2                            = 出典(&S)
+IDC_TEXT_3                            = 文字数(&C)
+IDC_TEXT_4                            = メモ(&M)
+IDC_TEXT_5                            = 拍子(&B)
+IDC_TEXT_6                            = 分解能(&R)
+IDS_DP_LISTENTRY                      = %4d文字 : %s
+IDS_DP_TPQN_ERROR                     = 分解能は1～960の間で設定してください
+IDS_DP_3TRACKS                        = トラックを3つまで選択して下さい。
+IDS_DP_4TRACKS                        = トラックが4つ以上選択されています。
+IDS_DP_RANK                           = 必要作曲ランク
+IDS_DP_RANK_PRACTICE                  = 練習
+IDS_DP_RANK_IMPOSSIBLE                = 作曲不可能
+
+[Preferences Sheet]
+IDS_CFG_TITLE                         = 環境設定
+IDS_CFG_GEN_TITLE                     = 一般
+IDS_CFG_FILE_TITLE                    = ファイル
+IDS_CFG_MIDI_TITLE                    = MIDI
+IDS_CFG_DLS_TITLE                     = DLS演奏
+IDS_CFG_KEY_TITLE                     = キー割り当て
+
+[Preferences Sheet - General]
+IDC_CMD_FONT                          = エディタフォント設定(&F)
+IDC_TEXT_1                            = 一般設定
+IDC_TEXT_2                            = 新規作成時のトラック数(&T) 
+IDC_TEXT_3                            = ウィンドウスタイル(&S) ※要再起動
+IDC_TEXT_4                            = 高度な設定
+IDC_TEXT_5                            = デフォルトの分解能(&R)
+IDC_TEXT_6                            = 描画フレームレート(&F)
+IDC_TEXT_7                            = 半透明描画(&P) ※要再起動
+IDS_CFG_GEN_30FPS                     = 標準 : 30 FPS
+IDS_CFG_GEN_60FPS                     = 高　  : 60 FPS
+IDS_CFG_GEN_ALPHABLEND_DISABLE        = 使用しない
+IDS_CFG_GEN_ALPHABLEND_ENABLE         = 使用する
+
+[Preferences Sheet - File]
+IDC_CMD_REGIST                        = 関連付け実行
+IDC_CMD_UNREGIST                      = 関連付け解除
+IDC_CHK_EDITABLE                      = コンパクト書き出し(&M)
+IDC_CHK_AUTOSAVE                      = 自動保存を実行(&A)
+IDC_TEXT_1                            = MMLファイル保存設定
+IDC_TEXT_2                            = MMLファイル関連付け設定
+IDC_TEXT_3                            = 自動保存
+IDC_TEXT_4                            = MMLファイル読み込み設定
+IDC_TEXT_5                            = 分解能が指定されていないファイルは
+IDS_CFG_FILE_DETACH                   = 関連付けを解除しました。
+IDS_CFG_FILE_FAILURE                  = 関連付けに失敗しました。
+IDS_CFG_FILE_OVERWRITE                = 既に関連付けられています。\n既存の関連付け設定に上書きしますか？
+IDS_CFG_FILE_SUCCESS                  = 関連付けを実行しました。
+IDC_CHK_TPQN_DEFAULT                  = デフォルトの分解能を使用(&D)
+IDC_CHK_TPQN_SPECIFIC                 = 次の分解能を使用(&S)
+
+[Preferences Sheet - Key Assign]
+IDC_CHK_CTRL                          = &Ctrl
+IDC_CHK_ALT                           = &Alt
+IDC_CHK_SHIFT                         = &Shift
+IDC_TEXT_1                            = メニュー一覧
+IDC_TEXT_2                            = 割り当てられたキー
+IDS_CFG_KEY_COL_MENU                  = メニュー
+IDS_CFG_KEY_COL_KEY                   = キー
+IDS_CFG_KEY_NOTASSIGNED               = なし
+
+[Preferences Sheet - Midi]
+IDC_CHK_GM                            = GMプリセットを表示しない(&G)
+IDC_TEXT_1                            = MIDI OUT
+IDC_TEXT_2                            = 出力先(&O)
+IDC_TEXT_3                            = ※DLS演奏を行うには、Microsoft DirectMusic DLSを選択します。\nその際は、DLS演奏設定も行ってください。
+IDC_TEXT_4                            = リセットタイプ(&R)
+IDC_TEXT_5                            = 楽器プリセット
+IDC_TEXT_6                            = 楽器定義ファイル(&I)
+IDS_CFG_MIDI_FILEFILTER               = 楽器定義ファイル (*.def)|*.def|すべてのファイル (*.*)|*.*||
+IDS_CFG_MIDI_OFNTITLE                 = 楽器定義ファイルを開く
+
+[Preferences Sheet - DLS Playback]
+IDC_CHK_REVERB                        = リバーブ(&R)
+IDC_CHK_CHORUS                        = コーラス(&C)
+IDC_CHK_DELAY                         = ディレイ(&D)
+IDC_TEXT_1                            = 音色設定
+IDC_TEXT_2                            = DLS音色ファイル(&I)
+IDC_TEXT_3                            = 出力設定
+IDC_TEXT_4                            = サンプリングレート(&S)
+IDC_TEXT_5                            = チャンネル(&N)
+IDC_TEXT_6                            = エフェクト(&E)
+IDC_TEXT_7                            = マスタボリューム(&V)
+IDS_CFG_DLS_FILEFILTER                = DLS音色データ (*.dls)|*.dls|すべてのファイル (*.*)|*.*||
+IDS_CFG_DLS_OFNTITLE                  = DLS音色ファイルを開く
+IDS_CFG_DLS_08KHZ                     = 8,000 Hz
+IDS_CFG_DLS_11KHZ                     = 11,025 Hz
+IDS_CFG_DLS_22KHZ                     = 22,050 Hz
+IDS_CFG_DLS_44KHZ                     = 44,100 Hz
+IDS_CFG_DLS_MONO                      = モノラル
+IDS_CFG_DLS_STEREO                    = ステレオ
+
+[Wave Export]
+IDS_WAV_EX_TITLE                      = Waveファイル出力中
+IDS_WAV_EX_BREAK                      = 中断
+IDC_CHK_VISIBLE                       = 出力中は3MLEを隠す(&H)
+IDS_WAV_EX_TIME                       = 出力時間
+IDS_WAV_EX_COMPLETE                   = WAVEファイルの出力が終了しました。
+IDS_WAV_EX_FAILURE                    = WAVEファイルの出力に失敗しました。
+IDS_WAV_EX_CONFIRM_BREAK              = 出力を中断しますか？
+IDS_WAV_EX_FILEFILTER                 = Wave (Microsoft) (*.wav) |*.wav|すべてのファイル (*.*)|*.*||
+IDS_WAV_EX_OFNTITLE                   = 名前を付けてWaveファイルをエクスポート
+IDS_WAV_EX_UNTITLED_FILENAME          = 名称未設定.wav
+    
+[SMF Import]
+IDS_SMF_IM_TITLE                      = 標準MIDIファイル インポート設定
+IDC_CHK_CHANNEL                       = MIDIチャンネル(&C)
+IDC_CHK_COMMENT                       = MIDIコメント(&M)
+IDC_CHK_CONTROL                       = コントロールチェンジ(&Y)
+IDC_CHK_PITCH                         = ピッチベンド(&B)
+IDC_CHK_PROGRAM                       = プログラムチェンジ(&P)
+IDC_CHK_REDUCE_REST                   = 休符節約(&R)
+IDC_CHK_SPREAD                        = 1MIDIトラック→複数MMLトラック変換(&S)
+IDC_CHK_SPREAD_CTRL                   = 音符以外を別トラックにまとめる(&U)
+IDC_CHK_SYSEX                         = エクスクルーシブメッセージ(&X)
+IDC_CHK_VELOCITY                      = ベロシティ(&V)
+IDC_LOAD                              = 読込
+IDC_TEXT_1                            = プロファイル(&L)
+IDC_TEXT_2                            = インポート項目(&F)
+IDC_TEXT_3                            = クオンタイズ単位設定(&Q)
+IDC_TEXT_4                            = その他設定(&E)
+IDC_TEXT_5                            = ※元の音符の長さを無視し、次の音符が現れるまで\n音を伸ばし続けます。
+IDC_TEXT_6                            = ※和音を可能な限り再現します。\nインポート対象のトラックを１つだけ選択してください。
+IDC_TEXT_7                            = インポート対象トラック(&T)
+IDS_SMF_IM_Q_04                       = 4分音符
+IDS_SMF_IM_Q_08                       = 8分音符
+IDS_SMF_IM_Q_16                       = 16分音符
+IDS_SMF_IM_Q_32                       = 32分音符
+IDS_SMF_IM_Q_64                       = 64分音符
+IDS_SMF_IM_PF_CUSTOM                  = カスタム
+IDS_SMF_IM_PF_MABI_N                  = マビノギ 通常
+IDS_SMF_IM_PF_MABI_R                  = マビノギ 文字数節約
+IDS_SMF_IM_PF_MABI_C                  = マビノギ 和音再現
+IDS_SMF_IM_PF_EX_MANY                 = 拡張 多数トラック
+IDS_SMF_IM_PF_EX_ONE                  = 拡張 単体トラック精密
+IDS_SMF_IM_TPQN                       = 分解能
+IDS_SMF_IM_Q_TICK                     = クオンタイズ単位
+IDS_SMF_IM_Q_ERROR                    = *変換誤差*
+IDS_SMF_IM_NOTRACK                    = トラックが選択されていません。
+IDS_SMF_IM_1TRACK                     = 1MIDIトラック→複数MMLトラック変換では\nトラックを１つだけ選択してください。
+IDS_SMF_IM_TOOMANYTRACKS              = トラックは最大で%dまで選択してください。
+
+[Text Search]
+IDS_SEARCH_TITLE_1                    = 検索
+IDS_SEARCH_TITLE_2                    = 検索・置換
+IDS_SEARCH_REPLACE_COUNT              = %d箇所を置換しました。
+IDS_SEARCH_NOT_FOUND                  = 文字列 '%s' が見つかりません。
+IDCANCEL                              = 閉じる
+IDC_CHK_ALL                           = トラック全体(&O)
+IDC_CHK_NONBS                         = 大文字と小文字を区別する(&S)
+IDC_CHK_SELECT                        = 選択範囲(&S)
+IDC_REPLACE                           = 置換(&R)
+IDC_REPLACE_ALL                       = 全て置換(&A)
+IDC_SEARCH                            = 下検索(&D)
+IDC_SEARCH_PREV                       = 上検索(&U)
+IDC_TXT_HELP_1                        = 検索する文字列(&N)
+IDC_TXT_HELP_2                        = 置換後の文字列(&P)
+IDC_TXT_HELP_3                        = 置換範囲
+
+[About Box]
+IDS_ABOUT_TITLE                       = バージョン情報
+
+[Notify Window]
+IDC_TEXT_STATUS                       = MIDIデバイス初期化中
+
+[PianoInput]
+IDS_PNI_TITLE                         = 鍵盤
