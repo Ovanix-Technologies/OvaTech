@@ -1,0 +1,86 @@
+﻿; ==================================================================================================
+; Instrument Presets for "MSXspirit.dls"
+; ==================================================================================================
+;
+; ** YOU MUST SAVE AS UTF-8. Recommends adding BOM. **
+;
+
+; --------------------------------------------------------------------------------------------------
+; Global Definitions
+; --------------------------------------------------------------------------------------------------
+[Information]
+SynthesizerName             = MSXspirit.dls
+
+
+[Instrument presets]
+; Name (English)              Program No.  MSB LSB Range-below Range-above Reserve * 2
+Lute                        = 1,           0,  0,  0,          0,          0,  0
+Ukulele                     = 2,           0,  0,  0,          0,          0,  0
+Mandolin                    = 3,           0,  0,  0,          0,          0,  0
+Flute                       = 6,           0,  0,  0,          0,          0,  0
+Whistle                     = 4,           0,  0,  0,          0,          0,  0
+Chalumeau                   = 7,           0,  0,  0,          0,          0,  0
+Roncadora                   = 5,           0,  0,  0,          0,          0,  0
+Snare Drum                  = 66,          0,  0,  0,          0,          0,  0
+Bass Drum                   = 67,          0,  0,  0,          0,          0,  0
+Drum                        = 68,          0,  0,  0,          0,          0,  0
+Cymbals                     = 69,          0,  0,  0,          0,          0,  0
+C Tone Bottle               =  8,          0,  0,  0,          0,          0,  0
+D Tone Bottle               =  9,          0,  0,  0,          0,          0,  0
+E Tone Bottle               = 10,          0,  0,  0,          0,          0,  0
+F Tone Bottle               = 11,          0,  0,  0,          0,          0,  0
+G Tone Bottle               = 12,          0,  0,  0,          0,          0,  0
+A Tone Bottle               = 14,          0,  0,  0,          0,          0,  0
+B Tone Bottle               = 13,          0,  0,  0,          0,          0,  0
+
+
+; --------------------------------------------------------------------------------------------------
+; Japanse 0x0411
+; --------------------------------------------------------------------------------------------------
+[1041]
+; English Name                Localized Name
+Lute                        = リュート
+Ukulele                     = ウクレレ
+Mandolin                    = マンドリン
+Flute                       = フルート
+Whistle                     = ホイッスル
+Chalumeau                   = シャリュモー
+Roncadora                   = ロンカドーラ
+Snare Drum                  = スネアドラム
+Bass Drum                   = 大太鼓
+Drum                        = 小太鼓
+Cymbals                     = シンバル
+C Tone Bottle               = ド音の空き瓶
+D Tone Bottle               = レ音の空き瓶
+E Tone Bottle               = ミ音の空き瓶
+F Tone Bottle               = ファ音の空き瓶
+G Tone Bottle               = ソ音の空き瓶
+A Tone Bottle               = ラ音の空き瓶
+B Tone Bottle               = シ音の空き瓶
+
+
+; --------------------------------------------------------------------------------------------------
+; Korean 0x0412
+; --------------------------------------------------------------------------------------------------
+[1042]
+; English Name                Localized Name
+Lute                        = 류트
+Ukulele                     = 우쿨렐레
+Mandolin                    = 만돌린
+Flute                       = 플루트
+Whistle                     = 휘슬
+Chalumeau                   = 샬루모
+Roncadora                   = 론카도라
+Snare Drum                  = 스네어 드럼
+Bass Drum                   = 큰 북
+Drum                        = 작은 북
+Cymbals                     = 심벌즈
+C Tone Bottle               = 도 음 빈 병
+D Tone Bottle               = 레 음 빈 병
+E Tone Bottle               = 미 음 빈 병
+F Tone Bottle               = 파 음 빈 병
+G Tone Bottle               = 솔 음 빈 병
+A Tone Bottle               = 라 음 빈 병
+B Tone Bottle               = 시 음 빈 병
+
+
