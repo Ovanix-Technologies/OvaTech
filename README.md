@@ -1,7 +1,13 @@
 Ovanix
 ======
 
+REPO RULES
+----------------
+DO NOT commit any applications. The ONLY things we should commit are art, code, .blends etc.
+That means no config files, exes, nothing. Only art that we've made, .blends we've made, and open source art are allowed in this repo!
 
+BLENDER RULES
+----------------
 PLEASE name EVERY object!
 
 
