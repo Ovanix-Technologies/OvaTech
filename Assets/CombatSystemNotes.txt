@@ -1,0 +1,111 @@
+//  - Combat System Notes -
+
+/*  Player stats include
+
+	- SlaProf (Slashing Proficiency)
+	- BluProf (Blunt Proficiency)
+	- PieProf (Piercing Proficiency)
+	- EleProf (Elemental Proficiency)
+	- STR (Strength)
+	- INT (Intelligence)
+	- AGI (Agility)
+*/
+//Each weapon defines its damage
+
+/* Predefined weapon stats are:
+
+	- baseDamage
+	- baseSPD
+	- objWeight
+	- weaponScale
+	- arcDeg
+*/
+
+//All Damage and Stats are in integers
+
+weaponStats
+
+	power = ((Proficiency/100) * baseDamage) *+STR or +(INT / 2)*
+	useDelay = baseSPD / ((AGI / 100) + (STR / 50))
+	knockbackForce = objWeight * ((weaponScale * arcDeg) / useDelay)
+
+	//Still may need to be scaled properly
+
+	stunTime = knockbackForce / 50
+
+	//stunTime and knockbackForce apply intermittently
+	//and depend on how many times the mob has been hit
+	
+	damageEff = Array(Poison|Burning|Frozen|ect.)
+
+	//Effects are applied if some event occurs with the weapon
+	// ex. Player dipped sword in poison
+
+ ex. 
+	Character Stats
+	
+	STR = 7
+	AGI = 120
+	INT = 80
+	SlaProf = 136
+	BluProf = 50
+	PieProf = 100
+	EleProf = 50
+
+
+	-Short Sword-
+
+	power = ((136/100) * 10) + 7
+	useDelay = 0.7 / ((120/100) + (7 / 100)
+	knockbackForce = 10 * ((0.9 * 2.25) / 0.55)
+	stunTime = 36.8 / 100
+	damageEff = (1|0|0|0)
+
+	Output: 21 Damage/Hit
+		0.55 Seconds/Hit
+		.37 Second stun time/Hit or 36.8 knockbackForce
+		Lvl 1 Poison effect
+
+	-Steel Mace-
+
+	power = ((50/100) * 8) + 7
+	useDelay = 1.0 / ((120/100) + (7 / 100)
+	knockbackForce = 30 * ((0.9 * 2.25) / 0.79)
+	stunTime = 36.8 / 100
+	damageEff = (0|0|0|0)
+
+	Output: 11 Damage/Hit
+		0.79 Seconds/Hit
+		.77 Second stun time/Hit or 76.9 knockbackForce
+
+
+	-Jagged Crystal-
+
+	power = ((50/100) * 15) + 40
+	useDelay = 2.0 / ((120/100) + (7 / 100)
+	knockbackForce = 5 * ((0.5 * 2.25) / 1.57)
+	stunTime = 36.8 / 100
+	damageEff = (0|1|0|0)
+
+	Output: 48 Damage/Hit
+		1.57 Seconds/Hit
+		.04 Second stun time/Hit or 3.6 knockbackForce
+		Lvl 1 Burning effect
+
+
+	-Stone Dagger-
+
+	power = ((100/100) * 8) + 7
+	useDelay = 0.5 / ((120/100) + (7 / 100)
+	knockbackForce = 5 * ((0.5 * 2.25) / 0.39)
+	stunTime = 36.8 / 100
+	damageEff = (1|0|0|0)
+
+	Output: 15 Damage/Hit
+		0.39 Seconds/Hit
+		.14 Second stun time/Hit or 14.4 knockbackForce
+		Lvl 1 Poison effect
+
+
+
+
